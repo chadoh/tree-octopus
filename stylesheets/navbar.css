@@ -1,0 +1,19 @@
+.navbar			{height:24px; background:#444; color:#eee; font-size:10px; font-family:verdana; text-align:right; padding:0px; margin:0px; border-bottom:2px solid #000; position:relative; z-index:999}
+.navbarbottom		{clear:both; border-top:2px solid #000; border-bottom:none}
+.navbar a		{text-decoration:none; font-weight:bold}
+.navbar a:link		{color:#bdd}
+.navbar a:visited	{color:#bdd}
+.navbar a:hover		{text-decoration:none; color:#fff}
+.navbarmenu		{float:left; color:#888}
+.navbarlogo		{color:#eee; font-weight:bold; font-size:18px; margin-right:4px}
+.navbarlogo img		{vertical-align:bottom}
+.navbarlogo i		{font-family:serif}
+.navbarinfo		{padding-right:4px}
+
+/* Medium-sized screens (tablets, etc.) */
+@media only screen and (max-device-width:800px)
+{
+.navbar		{font-size:10pt; height:2.4em; padding-right:10px}
+.navbarmenu	{font-size:1.1em;}
+.navbarmenu img	{height:1.8em; width:4em;}
+}

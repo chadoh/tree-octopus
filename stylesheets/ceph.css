@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'Duarte Centenario';
+	src: url('fonts/duarte_centenario.eot');
+	src: local('Duarte Centenario'), url('fonts/duarte_centenario.woff') format('woff');
+}
+
+body		{color:#cfc; font-family:tahoma,verdana,sans-serif; font-size:16px; padding:0px; margin:0px; background-color:#594; background-image:url("greentexture.jpg");}
+.fine		{font-size:.8em;}
+h4		{font-size:1em; font-weight:bold;}
+h3		{font-size:1.2em; font-weight:normal;}
+h2		{font-size:1.3em; font-weight:bold;}
+h1		{font-size:1.6em; font-weight:bold;}
+h1,h2,h3,h4	{margin:0px;}
+a		{text-decoration:none; font-weight:bold;}
+a:link		{color:#8d8;}
+a:visited	{color:#8d8;}
+a:hover		{color:#eca; text-decoration:underline;}
+a img		{border:0px;}
+
+li		{margin-bottom:6px;}
+
+.indent		{margin:20px;}
+.indent p	{text-align:justify;}
+
+.main		{margin:10px;}
+
+.sidebar	{position:absolute; left:10px; width:190px; text-align:center; margin:0px; padding:0px;}
+.sidebar h3	{font-family: Duarte Centenario; font-size:1.2em; text-align:center;}
+.sidebar h4	{font-size:1em;}
+
+.body h3	{font-family: Duarte Centenario; font-size:1.3em;}
+.body h4	{font-family: Duarte Centenario; font-weight:normal;}
+.body		{background-color:#010; border:solid #6a6 2px;
+		 margin-bottom:10px; margin-left:200px; padding:4px;}
+.body		{max-width:750px;}
+.body		{border-radius:15px 15px 15px 15px;}
+.body h3	{border-bottom:1px solid #373; padding-left:6px;}
+.body dt	{font-weight:bold; border-bottom:1px solid #6a6;}
+.body dd	{margin:10px;}
+
+.title		{text-align:center; margin-bottom:10px; padding-bottom:10px; background:#010 url("title_back.png") repeat-x; height:150px;}
+.title_small	{background:url("title_back_sm.png") repeat-x; height:100px;}
+.title		{border-radius:10px 10px 10px 10px;}
+.title	h3	{border:none;}
+.title_text	{width:500px; height:150px; margin:auto;
+		 background-image:url('title_text.png');}
+.title_text h1,
+.title_text h3	{visibility:hidden;}
+.title_text_small	{height:100px; background-image:url('../treeoctopus/title_text_sm.png');}
+
+.menu		{font-weight:bold; font-size:.9em; margin:8px 0px; padding:0px 00px 0px 16px; border-bottom:2px solid #6a6;}
+.menu li	{display:inline; margin:0px 6px;}
+.menu a		{border:2px solid #6a6; padding:0px 8px; background:#141;}
+.menu li,
+.menu a		{border-radius:10px 10px 0px 0px;}
+li.menu-current	{border:2px solid #6a6; border-bottom-color:#010; margin:0px 6px; padding:0px 8px;}
+.menu a:hover	{text-decoration:none; color:#cfc;}
+.menu-flip	{border-bottom:none; border-top:2px solid #6a6;}
+.menu-flip a,
+.menu-flip li	{border-radius:0px 0px 10px 10px;}
+.menu-flip li.menu-current	{border-top-color:#010; border-bottom-color:#6a6;}
+
+.center		{text-align:center;}
+
+.divide		{border-top:2px solid #6a6;}
+
+.photo		{margin-left:8px; margin-bottom:4px; padding:1px; background-color:#262;
+		 font-size:.8em; text-align:right; float:right;}
+.outline	{border:1px solid #262;}
+
+.box		{margin-bottom:10px; padding:0px 6px 6px 6px; background-color:#030;
+		 border:solid 1px #6a6; text-align:left;}
+.box		{border-radius:4px 4px 4px 4px;}
+.box p		{text-indent:10px;}
+.box h4		{text-align:center; margin-top:8px;}
+.box h3		{border-bottom:1px solid #6a6;}
+
+.sighting	{margin:20px; text-align:justify; border-top:6px solid #6a6; margin-top:20px;}
+.letter		{margin-top:20px; background-color:#020; border:1px solid #6a6; padding:10px;}
+.letter p,
+.letter em	{font-family:monospace;}
+.letter h4	{font-family:monospace; font-weight:bold;}
+.subject	{font-family:monospace; border-bottom:1px solid #040; margin:0px;}
+
+.cephnews	{font-size:.8em;}
+.cephnews dt	{margin-top:4px;}
+.cephnews dd	{padding-left:0px; margin-left:10px;}
+ul.cephnews	{margin:0px;padding:0px;}
+.cephnews b	{font-size:.7em;}
+.cephnews li	{margin:0px; padding:0px; list-style:none;}
+
+body	{scrollbar-face-color: #8c8;
+	scrollbar-shadow-color: #8c8;
+	scrollbar-highlight-color: #8c8;
+	scrollbar-3dlight-color: #8c8;
+	scrollbar-darkshadow-color: #8c8;
+	scrollbar-base-color: #040;
+	scrollbar-track-color: #040;
+	scrollbar-arrow-color: #040;}
+
+/* Medium-sized screens (tablets, etc.) */
+@media only screen and (max-device-width:800px)
+{
+body		{font-size:20px; border:none; border-radius:0px; background-image:none;}
+.main		{display:table; width:auto; margin:auto; padding-right:10px;}
+.body		{display:table-header-group; margin:0px; padding:10px;}
+.sidebar	{display:table-row-group; position:relative; font-size:1em;}
+.sidebar h3	{font-size:1.2em;}
+.sidebar h4	{font-size:1em;}
+.title		{border-radius:0px;}
+.menu		{font-size:.9em; padding:0px 00px 0px 10px;}
+.menu li	{margin:0px;}
+.body dt	{font-size:1.2em;}
+h4		{font-size:1.2em;}
+h3		{font-size:1.4em; font-weight:bold;}
+h2		{font-size:1.5em;}
+h1		{font-size:1.6em;}
+.cephnews	{font-size:1em}
+.cephnews b	{font-size:.8em}
+}
