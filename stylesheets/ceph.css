@@ -13,7 +13,7 @@ body {
   padding:0px;
   margin:0px;
   background-color:#594;
-  background-image:url("../images/greentexture.jpg");
+  background: url("../images/greentexture.jpg") fixed;
 }
 
 .fine {
