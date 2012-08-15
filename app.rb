@@ -1,5 +1,6 @@
 require 'sinatra'
+require 'sinatra/reloader' if development?
 
 get '/' do
-  redirect to '/index.html'
+  "Good day, world!"
 end
